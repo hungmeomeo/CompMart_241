@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { be_url } from "@/config_var";
 import { useToast } from "@chakra-ui/react";
-import { Card } from "@/components/card";
+import { Card } from "@/components/Card";
 
 const ProductManagement = () => {
   const [productName, setProductName] = useState("");
