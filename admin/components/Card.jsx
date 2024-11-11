@@ -106,7 +106,9 @@ export const Card = ({ product, setProductList }) => {
         <div>
           <h3 className="font-semibold">{product.name}</h3>
           <p>{product.price} vnd</p>
+          <p>{product.sold} sold</p>
         </div>
+        
       </div>
       <button
         onClick={(e) => {
