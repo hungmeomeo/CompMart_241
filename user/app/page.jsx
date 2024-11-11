@@ -22,7 +22,7 @@ const HomePage = () => {
   }, []);
   return (
     <>
-      <section className="responsive-layout bg-[url('/welcome_img.jpg')] py-10 bg-cover md:bg-none md:bg-[#F6F6F6] flex md:justify-between md:items-center md:py-20">
+      <section className="responsive-layout bg-[url('https://file.hstatic.net/200000722513/file/t10_thu_cu_doi_moi_web_slider_800x400.png')] py-10 bg-cover md:bg-none md:bg-[#F6F6F6] flex md:justify-between md:items-center md:py-20">
         <div className="brightness-110 text-center">
           <h1 className="text-4xl font-extrabold text-black drop-shadow-md animate-pulse">
             Hot Arrivals Today!
